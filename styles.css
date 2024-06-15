@@ -1,0 +1,113 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #110404;
+    margin: 0;
+}
+
+.logo {
+    text-align: left;
+}
+.logo img {
+    height: 75px;
+    margin-left:5px;
+    border-radius: 50%;
+  }
+header {
+    background-color: #3f4408;
+    color: #a48c8c;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    color: #f6e5e5;
+    text-decoration: none;
+}
+
+
+
+.social-media {
+    position: absolute;
+    top: 20px;
+    right: 2px;
+}
+
+.social-icon {
+    margin: 0 10px;
+}
+
+.social-icon img {
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+
+}
+
+.logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(212, 21, 21);
+    font-style: calc();
+}
+
+
+
+.social-media {
+    width: 15%;
+    padding: 7px 3px 2px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: right;
+}
+
+.socialIcons a {
+    background-color: rgb(209, 190, 190);
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i {
+    color: rgb(0, 0, 0);
+    opacity: 0, 9;
+}
+
+/* Hover affect on social media icon */
+.socialIcons a:hover {
+
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+    transition: 0.5s;
+    color: #a61717;
+
+
+}
